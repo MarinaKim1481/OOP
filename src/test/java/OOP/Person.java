@@ -6,13 +6,17 @@ public class Person {
     private String name;
     private String middleName;
     private String familyName;
+    private String age;
+
 
     //Функция, которая позволяет пришедшие с консоли данные определить к параметрам класса
-    public Person (String name, String middleName, String familyName){
+    public Person (String name, String middleName, String familyName, String age){
         this.name=name;
         this.middleName=middleName;
         this.familyName=familyName;
+        this.age=age;
     }
+
 
    //позволяет запросить извне значение name
     public String getName(){
@@ -21,7 +25,9 @@ public class Person {
 
 // позволяет извне изменить установить для name новое значение
     public void setName(String name){
+        if(!(name.length()==0)){
         this.name=name;
+        }
     }
 
     public String getMiddleName(){
@@ -40,9 +46,17 @@ public class Person {
         this.familyName=familyName;
     }
 
+    public String getAge(){
+        return age;
+    }
+
+    public void setAge(String age){
+        this.age=age;
+    }
+
 // Метод, определяющий  вид данных для вывода
     @Override
     public String toString() {
-        return "{" + name +" " + middleName +" "+ familyName +"}";
+        return "{" + name +" " + middleName +" "+ familyName +" "+ age +"}";
     }
 }

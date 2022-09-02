@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4acbc956-3033-4323-8ae2-35c015916c86" name="Changes" comment="practisePerson">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OOP/birthYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/academits/java/practice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Main_Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Main_Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OOP/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OOP/Person.java" afterDir="false" />
+    <list default="true" id="4acbc956-3033-4323-8ae2-35c015916c86" name="Changes" comment="analysisError">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverPractise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/academits/java/practice1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2DkylCePG9F03pEeRyFwHYFRIUg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,16 +44,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main_Person">
-    <configuration name="Main_Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP.Main_Person" />
+  <component name="RunManager" selected="JUnit.seleniumWebDriverPractise (1)">
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.Average" />
       <module name="SeleniumWebDriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,26 +62,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice1.proTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="mainFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math.mainFor" />
       <module name="SeleniumWebDriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academITS.*" />
+          <option name="PATTERN" value="Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="academITS" />
-      <option name="MAIN_CLASS_NAME" value="academITS.practice1" />
-      <option name="METHOD_NAME" value="proTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seleniumWebDriverPractise (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.academits.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.academits.java" />
+      <option name="MAIN_CLASS_NAME" value="ru.academits.java.seleniumWebDriverPractise" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seleniumWebDriverPractise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="seleniumWebDriverPractise" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seleniumWebDriverPractise.practise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="seleniumWebDriverPractise" />
+      <option name="METHOD_NAME" value="practise" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Average" />
+      <item itemvalue="Application.mainFor" />
+      <item itemvalue="JUnit.seleniumWebDriverPractise (1)" />
+      <item itemvalue="JUnit.seleniumWebDriverPractise" />
+      <item itemvalue="JUnit.seleniumWebDriverPractise.practise" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main_Person" />
-        <item itemvalue="JUnit.practice1.proTest" />
+        <item itemvalue="JUnit.seleniumWebDriverPractise (1)" />
+        <item itemvalue="JUnit.seleniumWebDriverPractise" />
+        <item itemvalue="JUnit.seleniumWebDriverPractise.practise" />
+        <item itemvalue="Application.mainFor" />
+        <item itemvalue="Application.Average" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661570440287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="practisePerson">
+      <created>1661659061430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661659061430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="practisePerson">
+      <created>1661659146493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661659146493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="practiseReverse">
+      <created>1661781602095</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661781602096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,12 +175,45 @@
             <State />
           </value>
         </entry>
+        <entry key="bf2e0a76-e045-4622-b3df-814b5ff49586">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="bf2e0a76-e045-4622-b3df-814b5ff49586" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practisePerson" />
-    <option name="LAST_COMMIT_MESSAGE" value="practisePerson" />
+    <MESSAGE value="practiseAverage" />
+    <MESSAGE value="practiseReverse" />
+    <MESSAGE value="analysisError" />
+    <option name="LAST_COMMIT_MESSAGE" value="analysisError" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -126,5 +225,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

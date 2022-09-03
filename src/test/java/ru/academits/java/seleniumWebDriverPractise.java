@@ -16,12 +16,20 @@ public class seleniumWebDriverPractise {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
  //       String browser = System.getProperty("browser");
-        driver.get("ya.ru");
+        driver.get("https://yandex.ru/");
         driver.manage().window().maximize();
     }
+
     @Test
-    public void getCurrentUrl() {
+    public void  getCurrentUrl() {
+        Assertions.assertEquals("https://yandex.ru/", driver.getCurrentUrl());
+        System.out.print(driver.getCurrentUrl());
+    }
+
+   @Test
+   public void getTitle() {
         Assertions.assertEquals("Яндекс", driver.getTitle());
+        System.out.print(driver.getTitle());
     }
     @AfterEach
     public void setDown() {

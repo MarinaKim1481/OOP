@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4acbc956-3033-4323-8ae2-35c015916c86" name="Changes" comment="analysisError">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverPractise.java" afterDir="false" />
+    <list default="true" id="4acbc956-3033-4323-8ae2-35c015916c86" name="Changes" comment="webDriverHomeWork">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverHW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/academits/java/practice1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverPractise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverPractise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
         <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -41,41 +43,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.seleniumWebDriverPractise (1)">
-    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.Average" />
+}</component>
+  <component name="RunManager" selected="JUnit.seleniumWebDriverHW">
+    <configuration name="seleniumWebDriverHW (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebDriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="ru.academits.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.academits.java" />
+      <option name="MAIN_CLASS_NAME" value="ru.academits.java.seleniumWebDriverHW" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math.mainFor" />
+    <configuration name="seleniumWebDriverHW (Chrome)" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="SeleniumWebDriver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math.*" />
+          <option name="PATTERN" value="ru.academits.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.academits.java" />
+      <option name="MAIN_CLASS_NAME" value="ru.academits.java.seleniumWebDriverHW" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seleniumWebDriverPractise (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="seleniumWebDriverHW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.academits.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.academits.java" />
+      <option name="MAIN_CLASS_NAME" value="ru.academits.java.seleniumWebDriverHW" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seleniumWebDriverPractise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="seleniumWebDriverPractise" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seleniumWebDriverPractise.getCurrentUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebDriver" />
       <extension name="coverage">
         <pattern>
@@ -85,45 +123,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.academits.java" />
       <option name="MAIN_CLASS_NAME" value="ru.academits.java.seleniumWebDriverPractise" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="seleniumWebDriverPractise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="seleniumWebDriverPractise" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="seleniumWebDriverPractise.practise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="seleniumWebDriverPractise" />
-      <option name="METHOD_NAME" value="practise" />
+      <option name="METHOD_NAME" value="getCurrentUrl" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chrome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Average" />
-      <item itemvalue="Application.mainFor" />
-      <item itemvalue="JUnit.seleniumWebDriverPractise (1)" />
+      <item itemvalue="JUnit.seleniumWebDriverHW (1)" />
+      <item itemvalue="JUnit.seleniumWebDriverHW" />
+      <item itemvalue="JUnit.seleniumWebDriverPractise.getCurrentUrl" />
+      <item itemvalue="JUnit.seleniumWebDriverHW (Chrome)" />
       <item itemvalue="JUnit.seleniumWebDriverPractise" />
-      <item itemvalue="JUnit.seleniumWebDriverPractise.practise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.seleniumWebDriverPractise (1)" />
+        <item itemvalue="JUnit.seleniumWebDriverHW" />
+        <item itemvalue="JUnit.seleniumWebDriverHW (1)" />
+        <item itemvalue="JUnit.seleniumWebDriverHW (Chrome)" />
+        <item itemvalue="JUnit.seleniumWebDriverPractise.getCurrentUrl" />
         <item itemvalue="JUnit.seleniumWebDriverPractise" />
-        <item itemvalue="JUnit.seleniumWebDriverPractise.practise" />
-        <item itemvalue="Application.mainFor" />
-        <item itemvalue="Application.Average" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661781602096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WDHW">
+      <created>1662222284429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662222284429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +250,9 @@
     <MESSAGE value="practiseAverage" />
     <MESSAGE value="practiseReverse" />
     <MESSAGE value="analysisError" />
-    <option name="LAST_COMMIT_MESSAGE" value="analysisError" />
+    <MESSAGE value="WDHW" />
+    <MESSAGE value="webDriverHomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="webDriverHomeWork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +261,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/OOP/Main_Person.java</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverPractise.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/academits/java/seleniumWebDriverHW.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

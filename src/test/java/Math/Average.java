@@ -28,31 +28,11 @@ public class Average {
                ++a;
            }
        }
-       //    sum= sum+a;
-     //      ++a;
-  //     }
-
-  //      while (a <= b) {
- //           sum = sum + a;
- //           ++a;2
-
-//        }
-        System.out.println(sum/notEvenNumbers);
         double average = (sum2 + sum) /(evenNumbers + notEvenNumbers);
         double average2 = sum2 / evenNumbers;
 
         System.out.println("Среднее арифметическое четных чисел "+ average2);
         System.out.println("Среднее арифметическое "+ average);
-
-
-  //      for(double k = a; k<=b; k++)
-   //     {
-   //         if (k % 2 == 0) {
-   //             evenNumbers++;
-  //              sum2 = sum2 + k;
-  //          }
- //       }
-
 
         }
     }

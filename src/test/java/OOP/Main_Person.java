@@ -25,12 +25,10 @@ public class Main_Person {
 
         System.out.print("Спасибо! Вы ввели:" + person);
 
-        System.out.print("\nВведите ваш год рождения:");
-        String birthYear= sc.nextLine();
-
         Person person2 = new Person (name, middleName, familyName, age);
-        person.setAge("10");
-        System.out.print ("Спасибо! Вы ввели:" + person2 + "\nГод рождения " + birthYear);
+      //  person2.setAge("22");
+        int birthYear = person2.birthYear();
+        System.out.print ("\nСпасибо! \nГод рождения " + birthYear);
 
     }
 }

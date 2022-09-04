@@ -1,6 +1,6 @@
 package Math;
 
-public class mainFor {
+public class operatorFor {
     public static void main(String[] args) {
         multiplicityFour();
     }

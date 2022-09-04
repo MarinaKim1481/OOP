@@ -1,5 +1,6 @@
 package OOP;
 
+
 //Person- класс
 public class Person {
     //Параметры у каждого представителя класса
@@ -8,15 +9,13 @@ public class Person {
     private String familyName;
     private String age;
 
-
     //Функция, которая позволяет пришедшие с консоли данные определить к параметрам класса
     public Person (String name, String middleName, String familyName, String age){
-        this.name=name;
-        this.middleName=middleName;
-        this.familyName=familyName;
-        this.age=age;
+        this.name = name;
+        this.middleName = middleName;
+        this.familyName = familyName;
+        this.age = age;
     }
-
 
    //позволяет запросить извне значение name
     public String getName(){
@@ -46,7 +45,7 @@ public class Person {
         this.familyName=familyName;
     }
 
-    public String getAge(){
+    public String getAge() {
         return age;
     }
 
@@ -54,7 +53,12 @@ public class Person {
         this.age=age;
     }
 
-// Метод, определяющий  вид данных для вывода
+    public int birthYear(){
+        int i = Integer.parseInt(age.trim());
+        return 2022 - i;
+    }
+
+    // Метод, определяющий  вид данных для вывода
     @Override
     public String toString() {
         return "{" + name +" " + middleName +" "+ familyName +" "+ age +"}";

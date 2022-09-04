@@ -6,36 +6,53 @@ public class Average {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите начало диапазона:");
-        double a = scanner.nextInt();
+        double a = scanner.nextDouble();
 
         System.out.print("Введите конец диапазона:");
-        double b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
-        double i = a;
         double sum = 0;
-
-        while (i <= b) {
-            sum = sum + i;
-            ++i;
-        }
-
-        double average = sum /(b-a+1);
-
-        System.out.println("Среднее арифметическое "+ average);
-
         double evenNumbers = 0;
+        double notEvenNumbers = 0;
         double sum2 = 0;
 
-        for(double k = a; k<=b; k++)
-        {
-            if (k % 2 == 0) {
-                evenNumbers++;
-                sum2 = sum2 + k;
-            }
-        }
+       while (a <= b) {
+           if (a % 2 == 0) {
+               sum2 = sum2 + a;
+               ++evenNumbers;
+               ++a;
+           }
+           else {
+               sum = sum + a;
+               ++notEvenNumbers;
+               ++a;
+           }
+       }
+       //    sum= sum+a;
+     //      ++a;
+  //     }
 
+  //      while (a <= b) {
+ //           sum = sum + a;
+ //           ++a;2
+
+//        }
+        System.out.println(sum/notEvenNumbers);
+        double average = (sum2 + sum) /(evenNumbers + notEvenNumbers);
         double average2 = sum2 / evenNumbers;
 
         System.out.println("Среднее арифметическое четных чисел "+ average2);
+        System.out.println("Среднее арифметическое "+ average);
+
+
+  //      for(double k = a; k<=b; k++)
+   //     {
+   //         if (k % 2 == 0) {
+   //             evenNumbers++;
+  //              sum2 = sum2 + k;
+  //          }
+ //       }
+
+
         }
     }

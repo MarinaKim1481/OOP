@@ -1,6 +1,8 @@
 package OOP;
 
 
+import java.time.YearMonth;
+
 //Person- класс
 public class Person {
     //Параметры у каждого представителя класса
@@ -53,9 +55,10 @@ public class Person {
         this.age=age;
     }
 
-    public int birthYear(){
+    public int getBirthYear(){
         int i = Integer.parseInt(age.trim());
-        return 2022 - i;
+        int currentYear = YearMonth.now().getYear();
+        return currentYear - i;
     }
 
     // Метод, определяющий  вид данных для вывода

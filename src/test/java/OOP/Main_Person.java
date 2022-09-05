@@ -26,8 +26,8 @@ public class Main_Person {
         System.out.print("Спасибо! Вы ввели:" + person);
 
         Person person2 = new Person (name, middleName, familyName, age);
-      //  person2.setAge("22");
-        int birthYear = person2.birthYear();
+        person2.setAge("22");
+        int birthYear = person2.getBirthYear();
         System.out.print ("\nСпасибо! \nГод рождения " + birthYear);
 
     }

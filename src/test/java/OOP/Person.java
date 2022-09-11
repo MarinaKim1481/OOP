@@ -9,17 +9,18 @@ public class Person {
     private String name;
     private String middleName;
     private String familyName;
-    private String age;
+    private int age;
 
     //Функция, которая позволяет пришедшие с консоли данные определить к параметрам класса
-    public Person (String name, String middleName, String familyName, String age){
+    public Person (String name, String middleName, String familyName, int age){
         this.name = name;
         this.middleName = middleName;
         this.familyName = familyName;
         this.age = age;
     }
 
-   //позволяет запросить извне значение name
+
+    //позволяет запросить извне значение name
     public String getName(){
         return name;
     }
@@ -47,18 +48,16 @@ public class Person {
         this.familyName=familyName;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age){
+    public void setAge(int age){
         this.age=age;
     }
 
     public int getBirthYear(){
-        int i = Integer.parseInt(age.trim());
-        int currentYear = YearMonth.now().getYear();
-        return currentYear - i;
+        return YearMonth.now().getYear() - age;
     }
 
     // Метод, определяющий  вид данных для вывода

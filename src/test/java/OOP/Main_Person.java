@@ -17,7 +17,7 @@ public class Main_Person {
         String familyName = sc.nextLine();
 
         System.out.print("Введите ваш возраст:");
-        String age = sc.nextLine();
+        int age = sc.nextInt();
 
         Person person = new Person(name, middleName, familyName, age);
 
@@ -26,7 +26,7 @@ public class Main_Person {
         System.out.print("Спасибо! Вы ввели:" + person);
 
         Person person2 = new Person (name, middleName, familyName, age);
-        person2.setAge("22");
+        person2.setAge(22);
         int birthYear = person2.getBirthYear();
         System.out.print ("\nСпасибо! \nГод рождения " + birthYear);
 
